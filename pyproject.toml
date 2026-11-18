@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ssenn-v2"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["torch>=2.5,<3"]
+description = "CPU research baseline for three-state spring synapses"
+
+[tool.setuptools]
+packages = ["ssenn"]
