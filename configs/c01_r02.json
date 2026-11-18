@@ -1,0 +1,22 @@
+{
+  "reviewed_commit": "49030edd0b1289bdbddd7f4fd2a9b4ed9c9e2ec5",
+  "diagnosis_corpora": [3109, 5471, 7907],
+  "confirmation_corpora": [10009, 14033, 19001],
+  "model_seeds": [11, 29, 47],
+  "eta_w": 0.72,
+  "adam_lr": 0.005,
+  "primary_steps": 1000,
+  "confirmation_extension": 2000,
+  "ce_target": 0.60,
+  "probe_steps": [0, 25, 100, 250, 500, 750, 1000, 1500, 2000],
+  "spring_grid": [
+    ["reference", 0.05, 0.02, 0.1],
+    ["slow_anchor", 0.01, 0.02, 0.1],
+    ["fast_anchor", 0.2, 0.02, 0.1],
+    ["slow_growth", 0.05, 0.002, 0.1],
+    ["no_growth", 0.05, 0, 0.1],
+    ["weak_restore", 0.05, 0.02, 0.01],
+    ["no_restore", 0.05, 0.02, 0]
+  ],
+  "anchor_rates": [0.05, 0.01, 0.2]
+}
