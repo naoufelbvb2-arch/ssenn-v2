@@ -1,0 +1,1 @@
+{"spring":{"scale":4.0,"mean_validation_ce_in_grid_order":[0.7737911939620972,0.8774289819929335,0.6102258827951219]},"ablation":{"scale":4.0,"mean_validation_ce_in_grid_order":[0.7536625464757284,0.8342548211415609,0.5661816067165799]},"adamw":{"scale":1.0,"mean_validation_ce_in_grid_order":[0.5260157717598809,0.6036482320891486,0.5352505445480347]}}
