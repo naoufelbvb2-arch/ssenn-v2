@@ -1,0 +1,10 @@
+{
+  "base": "3b050e1",
+  "base_config": "configs/c01.json",
+  "task": "T02",
+  "corpus_seeds": [3109, 5471, 7907],
+  "model_seeds": [11, 29, 47],
+  "rate_multipliers": [1.0, 0.5, 4.0],
+  "methods": ["spring", "ablation", "adamw"],
+  "credit_probe_steps": [0, 250, 500, 1000]
+}
