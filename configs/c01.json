@@ -1,0 +1,19 @@
+{
+  "seeds": [11, 29, 47],
+  "methods": ["spring", "ablation", "adamw"],
+  "tasks": {
+    "T01": {
+      "hidden": 16, "steps": 800, "batch_size": 4, "eval_every": 20,
+      "target_accuracy": 1.0,
+      "rates": {"eta_w": 0.3, "eta_0": 0.05, "gamma": 0.1, "beta_k": 0.02},
+      "adam_lr": 0.01, "weight_decay": 0.01
+    },
+    "T02": {
+      "hidden": 48, "steps": 1000, "batch_size": 64, "eval_every": 25,
+      "target_accuracy": 0.66,
+      "rates": {"eta_w": 0.18, "eta_0": 0.05, "gamma": 0.1, "beta_k": 0.02},
+      "adam_lr": 0.005, "weight_decay": 0.01,
+      "data": {"seed": 2026, "sizes": [96, 24, 24], "clauses": 8, "context": 4}
+    }
+  }
+}
