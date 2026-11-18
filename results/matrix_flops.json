@@ -1,0 +1,44 @@
+[
+  {
+    "task": "T01",
+    "method": "spring",
+    "batch_size": 4,
+    "matrix_operations": 5,
+    "matrix_flops": 1568
+  },
+  {
+    "task": "T01",
+    "method": "ablation",
+    "batch_size": 4,
+    "matrix_operations": 5,
+    "matrix_flops": 1568
+  },
+  {
+    "task": "T01",
+    "method": "adamw",
+    "batch_size": 4,
+    "matrix_operations": 5,
+    "matrix_flops": 1584
+  },
+  {
+    "task": "T02",
+    "method": "spring",
+    "batch_size": 64,
+    "matrix_operations": 5,
+    "matrix_flops": 622848
+  },
+  {
+    "task": "T02",
+    "method": "ablation",
+    "batch_size": 64,
+    "matrix_operations": 5,
+    "matrix_flops": 622848
+  },
+  {
+    "task": "T02",
+    "method": "adamw",
+    "batch_size": 64,
+    "matrix_operations": 5,
+    "matrix_flops": 624000
+  }
+]
