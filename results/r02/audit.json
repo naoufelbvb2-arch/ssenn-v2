@@ -1,0 +1,16 @@
+{
+  "lock_matches": true,
+  "python": "3.14.4",
+  "torch": "2.12.0+cpu",
+  "cpu": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "threads": 1,
+  "diagnosis": {
+    "count": 108,
+    "exact": 108
+  },
+  "confirmation": {
+    "count": 45,
+    "exact": 45
+  }
+}
