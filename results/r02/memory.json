@@ -1,0 +1,117 @@
+{
+  "light": [
+    {
+      "deployed": 8868,
+      "training_only": 1728,
+      "peak_above_entry": 63500,
+      "net_change": 0,
+      "events": 106
+    },
+    {
+      "deployed": 8868,
+      "training_only": 1728,
+      "peak_above_entry": 63500,
+      "net_change": 0,
+      "events": 106
+    },
+    {
+      "deployed": 8868,
+      "training_only": 1728,
+      "peak_above_entry": 63500,
+      "net_change": 0,
+      "events": 106
+    }
+  ],
+  "anchor_0.05": [
+    {
+      "deployed": 8868,
+      "training_only": 10596,
+      "peak_above_entry": 63500,
+      "net_change": 0,
+      "events": 158
+    },
+    {
+      "deployed": 8868,
+      "training_only": 10596,
+      "peak_above_entry": 63500,
+      "net_change": 0,
+      "events": 158
+    },
+    {
+      "deployed": 8868,
+      "training_only": 10596,
+      "peak_above_entry": 63500,
+      "net_change": 0,
+      "events": 158
+    }
+  ],
+  "reference": [
+    {
+      "deployed": 8868,
+      "training_only": 19464,
+      "peak_above_entry": 93968,
+      "net_change": 0,
+      "events": 262
+    },
+    {
+      "deployed": 8868,
+      "training_only": 19464,
+      "peak_above_entry": 93968,
+      "net_change": 0,
+      "events": 262
+    },
+    {
+      "deployed": 8868,
+      "training_only": 19464,
+      "peak_above_entry": 93968,
+      "net_change": 0,
+      "events": 262
+    }
+  ],
+  "slow_growth": [
+    {
+      "deployed": 8868,
+      "training_only": 19464,
+      "peak_above_entry": 93968,
+      "net_change": 0,
+      "events": 262
+    },
+    {
+      "deployed": 8868,
+      "training_only": 19464,
+      "peak_above_entry": 93968,
+      "net_change": 0,
+      "events": 262
+    },
+    {
+      "deployed": 8868,
+      "training_only": 19464,
+      "peak_above_entry": 93968,
+      "net_change": 0,
+      "events": 262
+    }
+  ],
+  "adamw": [
+    {
+      "deployed": 8868,
+      "training_only": 17744,
+      "peak_above_entry": 50924,
+      "net_change": 0,
+      "events": 84
+    },
+    {
+      "deployed": 8868,
+      "training_only": 17744,
+      "peak_above_entry": 50924,
+      "net_change": 0,
+      "events": 84
+    },
+    {
+      "deployed": 8868,
+      "training_only": 17744,
+      "peak_above_entry": 50924,
+      "net_change": 0,
+      "events": 84
+    }
+  ]
+}
