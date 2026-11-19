@@ -1,0 +1,14 @@
+{
+  "model": {"context": 16, "width": 32, "heads": 2, "ff": 64},
+  "model_seeds": [11, 29, 47],
+  "steps": 600,
+  "batch": 12,
+  "evaluate_every": 50,
+  "local_rate": 0.14,
+  "anchor_rate": 0.05,
+  "adam_lr": 0.003,
+  "weight_decay": 0.01,
+  "methods": ["dfa", "anchor", "adamw"],
+  "structured": {"seed": 24031, "sizes": [96, 24, 24], "clauses": 8},
+  "blake": {"split_seed": 1841, "sizes": [33, 6, 6]}
+}

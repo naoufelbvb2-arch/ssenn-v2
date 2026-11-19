@@ -1,0 +1,7 @@
+# C02-A CPU learning check
+
+Run the structured ring grammar first, then predict lowercase characters in William Blake's poetry. Split whole poems before vocabulary fitting. Use a shared randomly initialized decoder, matched minibatch indices and the same next-token evaluator across three methods and three seeds. The step budget and learning rates are fixed in the [configuration](configs/c02a.json). Select no model using test performance. Score the final step on test once per run.
+
+The primary measurements are token-averaged cross-entropy (nats) and its exponential, perplexity. For a minimal learning PASS require final deployed validation CE below both step zero and a Laplace-smoothed training unigram predictor. Also report a smoothed bigram and structured first-move accuracy, where a direction cue precedes the most recent symbol. Check whether attention to earlier tokens helps by limiting final validation inference to self-only attention at fixed weights. This intervention removes the only cross-position path.
+
+For a positive C02-B recommendation require software checks, finite changes to every intended group, reproducible curves, and passage of the learning gate by primary DFA on all seeds of both tasks. Also seek evidence that usable earlier context is learned on both tasks. Interpret smoke quality, cost and sample sizes explicitly. CPU timings cannot establish GPU cost to equivalent quality.
