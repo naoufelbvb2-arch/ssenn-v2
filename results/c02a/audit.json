@@ -1,0 +1,11 @@
+{
+  "cpu": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "python": "3.14.4",
+  "torch": "2.12.0+cpu",
+  "threads": 1,
+  "trajectories": 18,
+  "exact_resumed": 18,
+  "primary_science": {
+    "PASS": 18
+  }
+}
